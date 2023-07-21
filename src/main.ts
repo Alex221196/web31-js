@@ -31,8 +31,76 @@ import './style.css'
 
 // Зфдача 6
 
+// let a = parseFloat(prompt('Введите число ','0') as string)
+// let b = parseFloat(prompt('Введите число ','0') as string)
+
+// alert(-b/a)
+
+// Задача 7
+// const tipH = 24
+// const tipM = 60
+// let hours = parseFloat(prompt('Введите текущий час ','0') as string)
+// let minutes = parseFloat(prompt('Введите текущие минуты ','0') as string)
+// let h = parseInt(`${(tipH*60-hours*60-minutes)/60}`)
+// alert(`часов ${h}
+// минут ${tipM-minutes}`)
+
+
+
+// // Задание 1
+
+// let name = prompt('Введите имя','')
+// alert(`Привет, ${name}`)
+
+// Задание 2
+
+// const NowYear = 2023
+// let BirthYear = prompt('Введите год своего рождения','')
+// alert(NowYear - BirthYear)
+
+// Задание 3
+
+// let Square = prompt('Ввидите длину стороны квадрата','')
+// alert(Square * 4)
+
+// Задача 4
+
+// let radius = prompt('Ввидите радиус окружности','')
+// alert(3.14 * (radius**2))
+
+// Задание 5
+
+// let distance = prompt('Ввидите кол-во км между городами(в км)','')
+// let time = prompt('Видите планируемое время поездки(в часах)','')
+// alert(distance / time)
+
+// Задание 6
+
+// const eur = 1.12
+// let usd = prompt('Введите сумму в $','')
+// alert(usd/eur)
+
+// Задание 7
+
+// const file = 820
+// let flash = prompt('Ввидите объем памяти в Гб','')
+// let size = Math.round(flash * 1024 / file)
+// alert(size);
+ 
+// Задание 8
+
+// let purse = prompt('Введите сумму в кошельке','')
+// let chocolate = prompt('Введите стоймость одной плитки шоколада','')
+// let size = Math.round(purse/chocolate)
+// alert(`можешь купить шоколадок ${size}
+// останется сдачи ${purse-(size*chocolate)}`)
+
+// Задача 9
 
 
 
 
-за
+// Задание 10
+
+// let a = prompt('Введите целое число','')
+// alert(( a % 2 == 0) ? "ЧЁТНОЕ" : "НЕЧЁТНОЕ");
