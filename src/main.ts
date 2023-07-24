@@ -104,3 +104,87 @@ import './style.css'
 
 // let a = prompt('Введите целое число','')
 // alert(( a % 2 == 0) ? "ЧЁТНОЕ" : "НЕЧЁТНОЕ");
+
+
+
+// let login = prompt('Кто там?')
+  
+
+
+
+
+
+
+
+
+
+
+// // Задача 1
+
+// let intNumb = parseFloat( prompt('Ввидите число', '2')as string)
+// if (intNumb > 0) {
+//     alert( 1 )
+// }
+// else if ( intNumb < 0) {
+//     alert( -1)
+// }
+// else {
+//     alert ( 0 )
+// }
+
+
+// Запросить у пользователя его возраст и определить, кем он
+// является: ребенком (0–2), подростком (12–18), взрослым
+// (18_60) или пенсионером (60– ...).
+
+// let ageInt = parseFloat( prompt('Ввидите возраст','2') as string)
+// if (ageInt<=12){
+//     alert('ребенок')
+// }
+// else if (ageInt<=18){
+//     alert('подросток')
+// }
+// else if (ageInt<=60){
+//     alert('Взрослый')
+// }
+// else {
+//     alert('Сыпишся')
+// }
+
+// Запросить у пользователя число от 0 до 9 и вывести ему
+// спецсимвол, который расположен на этой клавише (1–!,
+// 2–@, 3–# и т. д).
+
+
+let numberInt = parseFloat( prompt('Ввидите число 0-10') as string)
+switch( numberInt){
+    case 1: 
+        alert('!')
+    break
+    case 2:
+        alert('@')
+    break
+    case 3:
+        alert('#')
+    break
+    case 4:
+        alert('$')
+    break
+    case 5:
+        alert('%')
+    break
+    case 6:
+        alert('^')
+    break
+    case 7:
+        alert('&')
+    break
+    case 8:
+        alert('*')
+    break
+    case 9:
+        alert('(')
+    break
+    default:
+        alert('зы сыс')
+}
