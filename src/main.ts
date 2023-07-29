@@ -10,7 +10,7 @@ import './style.css'
 // let input = parseFloat( prompt('Введите число', '0') as string)
 // let inputT = parseFloat( prompt('Введите число', '0') as string)
 // alert((input + inputT)/2)
- 
+
 // зфдфние 3
 
 // let user = prompt('Введите число', '0' )
@@ -86,7 +86,7 @@ import './style.css'
 // let flash = prompt('Ввидите объем памяти в Гб','')
 // let size = Math.round(flash * 1024 / file)
 // alert(size);
- 
+
 // Задание 8
 
 // let purse = prompt('Введите сумму в кошельке','')
@@ -108,7 +108,7 @@ import './style.css'
 
 
 // let login = prompt('Кто там?')
-  
+
 
 
 
@@ -156,35 +156,141 @@ import './style.css'
 // 2–@, 3–# и т. д).
 
 
-let numberInt = parseFloat( prompt('Ввидите число 0-10') as string)
-switch( numberInt){
-    case 1: 
-        alert('!')
-    break
-    case 2:
-        alert('@')
-    break
-    case 3:
-        alert('#')
-    break
-    case 4:
-        alert('$')
-    break
-    case 5:
-        alert('%')
-    break
-    case 6:
-        alert('^')
-    break
-    case 7:
-        alert('&')
-    break
-    case 8:
-        alert('*')
-    break
-    case 9:
-        alert('(')
-    break
-    default:
-        alert('зы сыс')
-}
+// let numberInt = parseFloat( prompt('Ввидите число 0-10') as string)
+// switch( numberInt){
+//     case 1: 
+//         alert('!')
+//     break
+//     case 2:
+//         alert('@')
+//     break
+//     case 3:
+//         alert('#')
+//     break
+//     case 4:
+//         alert('$')
+//     break
+//     case 5:
+//         alert('%')
+//     break
+//     case 6:
+//         alert('^')
+//     break
+//     case 7:
+//         alert('&')
+//     break
+//     case 8:
+//         alert('*')
+//     break
+//     case 9:
+//         alert('(')
+//     break
+//     default:
+//         alert('зы сыс')
+// }
+
+
+
+
+
+// const number = +(prompt('Введите число между 0 и 3', '') as string)
+// switch (number) {
+//   case 0:
+//     alert('Вы ввели число 0')
+//     break
+//   case 1:
+//     alert('Вы ввели число 1')
+//     break
+//   case 2:
+//   case 3:
+//     alert('Вы ввели число 2, a может 3')
+//     break
+// }
+// let age = +prompt('введите число','')
+// if (age >=14 && age<=90){
+//   alert(1)
+// }
+//  else if (!(age >=14 && age<=90))
+// {alert(false)}
+
+// if(age< 14 || age >90)
+// {alert(3)}
+
+// let age = +prompt('введите число','')
+// if (age <=14 || age>=90)
+// alert(true)
+
+
+
+// let monthInt = +prompt('Введите номер месяца', '')
+// switch (monthInt) {
+//   case 1:
+//     alert('январь')
+//     break
+//   case 2:
+//     alert('февраль')
+//     break
+//   case 3:
+//     alert('март')
+//     break
+//   case 4:
+//     alert('фпрель')
+//     break
+//   case 5:
+//     alert('май')
+//     break
+//   case 6:
+//     alert('июнь')
+//     break
+//   case 7:
+//     alert('июль')
+//     break
+//   case 8:
+//     alert('фвгуст')
+//     break
+//   case 9:
+//     alert('сентябрь')
+//     break
+//   case 10:
+//     alert('октябрь')
+//     break
+//   case 11:
+//     alert('ноябрь')
+//     break
+//   case 12:
+//     alert('декабрь')
+//     break
+//     default:
+//       alert("пока")
+// }
+
+// Реализовать калькулятор. Пользователь вводит 2 числа и
+// знак (+ - * /). В зависимости от введенного знака решить
+// пример и вывести результат.
+
+// let a = +(prompt('Введите первое число', '1') as string)
+// let b = +(prompt('Введите второе число', '5') as string)
+// let c = prompt('Введите знак (+ - * /)', '+')
+// switch (c) {
+//   case '+':
+//     alert(a + b)
+//     break
+//   case '-':
+//     alert(a - b)
+//     break
+//   case '*':
+//     alert(a * b)
+//     break
+//   case '/':
+//           alert(a / b)
+//     break
+//     default:
+//       alert()
+// }
+
+
+// Запросить 2 числа и вывести большее из них.
+
+// let a = +prompt('Введите первое число','')
+// let b = +prompt('Введите втрое число','')
+// let c =
