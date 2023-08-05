@@ -294,3 +294,46 @@ import './style.css'
 // let a = +prompt('Введите первое число','')
 // let b = +prompt('Введите втрое число','')
 // let c =
+
+
+
+
+
+
+// let i= 0
+// while(i < 3){
+//     alert( `number ${i}!` );
+//     i++
+// }
+
+
+
+// let i = 0
+// while (i<=100){
+//     i = +(prompt('Ввидите число больше 100','') as string);
+//     if (!i) break;
+// }
+
+
+
+
+
+// while(false){
+//     console.log('выполниться только раз, так как break')
+//     break
+// }
+
+
+
+let n = 10
+for( let i= 2; i<=n;i++){
+    let isSimple = true
+    for(let j = 2; j<i; j++){
+        if(i%j){
+            isSimple = false
+            break
+        }
+    }
+}
+
+
