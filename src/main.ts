@@ -325,15 +325,47 @@ import './style.css'
 
 
 
-let n = 10
-for( let i= 2; i<=n;i++){
-    let isSimple = true
-    for(let j = 2; j<i; j++){
-        if(i%j){
-            isSimple = false
-            break
-        }
-    }
-}
+// let n = 10
+// for( let i= 2; i<=n;i++){
+//     let isSimple = true
+//     for(let j = 2; j<i; j++){
+//         if(i%j){
+//             isSimple = false
+//             break
+//         }
+//     }
+// }
+
+
+// 1.Подсчитать сумму всех чисел в заданном пользователем
+// диапазоне.
+
+// let a= +(prompt('Введите первое число диапозона','') as string)
+// let b = +(prompt('Введите второе число диапозона','') as string)
+// let sum = 0
+
+// while(a<= b){
+//     sum+=a
+//     a++
+// }
+// alert(sum)
+
+
+
+// 2.Запросить 2 числа и найти только наибольший общий
+// делитель.
+
+// let a= +(prompt('Введите перове число','')as string)
+// let b = +(prompt('Введите второе число','')as string)
+
+
+
+
+// 3.Запросить у пользователя число и вывести все делители
+// этого числа.
+
+// let a= +(prompt('Ввидите число','') as string)
+
+
 
 
