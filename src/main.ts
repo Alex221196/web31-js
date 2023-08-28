@@ -367,5 +367,41 @@ import './style.css'
 // let a= +(prompt('Ввидите число','') as string)
 
 
+let uName = "";
+let toDos = []
+const appDiv = document.getElementById('app')
 
-
+function render() {
+    let isLogin = uName
+    if (appDiv) appDiv.innerHTML = ''
+    const pElement = document.createElement('p')
+    pElement.textContent =uName ? `${uName}, Добро пожаловать`: `Добро пожаловать на сайт`
+    
+    let phrase = ""
+    if (uName){
+        phrase = uName + 'Добро пожаловать'
+    } else {
+        phrase = "Добро пожаловать на сайт"
+    }
+    if (appDiv) appDiv.appendChild(pElement)
+    
+    
+    const button = document.createElement('button')
+    button.textContent = isLogin ? 'LogOut' : 'Login'
+    button.addEventListener('click',()=>{
+        uName = isLogin ? '' : 'Aleksei'
+        toDos = isLogin ? [] : ['проснуться','позавтракать','умыться','рфботать','лечь спать']
+        render()
+    })
+    if (appDiv) appDiv.appendChild(button)
+    if (isLogin){
+        const olElement = document.createElement('ol') 
+        for (let i=0;i<toDos.length;i++){
+            const listElement = document.createElement('li')
+            listElement.textContent = toDos[i]
+            olElement.appendChild(listElement)
+        }
+        if (appDiv) appDiv.appendChild(olElement)
+    }
+}
+render()
